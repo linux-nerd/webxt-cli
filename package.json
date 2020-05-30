@@ -2,6 +2,13 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.22.0"
+    "lerna": "^3.22.0",
+    "oclif": "1.16.1"
+  },
+  "scripts": {
+    "lerna": "lerna",
+    "oclif": "oclif",
+    "run-cmd": "cd packages/cli/bin && ./run",
+    "add-cmd": "cd packages/cli && oclif command"
   }
 }

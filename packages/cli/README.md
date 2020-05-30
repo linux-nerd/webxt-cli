@@ -19,7 +19,7 @@ $ npm install -g cli
 $ cli COMMAND
 running command...
 $ cli (-v|--version|version)
-cli/0.0.0 darwin-x64 node-v10.13.0
+cli/1.0.0 darwin-x64 node-v10.13.0
 $ cli --help [COMMAND]
 USAGE
   $ cli COMMAND
@@ -28,8 +28,25 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`cli create [FILE]`](#cli-create-file)
 * [`cli hello [FILE]`](#cli-hello-file)
 * [`cli help [COMMAND]`](#cli-help-command)
+
+## `cli create [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ cli create [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/create.ts](https://github.com/linux-nerd/cli/blob/v1.0.0/src/commands/create.ts)_
 
 ## `cli hello [FILE]`
 
@@ -49,7 +66,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/linux-nerd/cli/blob/v0.0.0/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/linux-nerd/cli/blob/v1.0.0/src/commands/hello.ts)_
 
 ## `cli help [COMMAND]`
 
