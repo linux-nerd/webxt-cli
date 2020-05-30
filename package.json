@@ -8,7 +8,7 @@
   "scripts": {
     "lerna": "lerna",
     "oclif": "oclif",
-    "run-cmd": "cd packages/cli/bin && ./run",
-    "add-cmd": "cd packages/cli && oclif command"
+    "run-cmd": "cd packages/webxt-cli/bin && ./run",
+    "add-cmd": "cd packages/webxt-cli && oclif command"
   }
 }

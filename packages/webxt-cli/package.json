@@ -1,5 +1,5 @@
 {
-  "name": "cli",
+  "name": "webxt-cli",
   "version": "1.0.0",
   "author": "Abhishek Prakash @linux-nerd",
   "bin": {
