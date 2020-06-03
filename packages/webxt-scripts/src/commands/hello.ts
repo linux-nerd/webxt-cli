@@ -1,10 +1,10 @@
-import { Command, flags } from '@oclif/command';
+import { Command, flags } from "@oclif/command";
 
 export default class Hello extends Command {
   static description = "describe the command here";
 
   static examples = [
-    `$ cli hello
+    `$ webxt-scripts hello
 hello world from ./src/hello.ts!
 `
   ];

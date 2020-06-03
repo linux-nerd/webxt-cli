@@ -1,0 +1,28 @@
+{
+  "name": "template-popup",
+  "version": "0.0.0",
+  "description": "A javascript popup template",
+  "keywords": [
+    "webxt-cli",
+    "popup",
+    "template",
+    "browser",
+    "extension"
+  ],
+  "author": "Abhishek Prakash <abhishek.prakash@izettle.com>",
+  "homepage": "https://github.com/linux-nerd/webxt-cli#readme",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linux-nerd/webxt-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/linux-nerd/webxt-cli/issues"
+  }
+}

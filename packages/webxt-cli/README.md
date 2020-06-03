@@ -1,9 +1,9 @@
 # webxt-cli
 
-[![owebxt-clif](https://img.shields.io/badge/webxt-cli-owebxt-clif-brightgreen.svg)](https://owebxt-clif.io)
-[![Version](https://img.shields.io/npm/v/webxt-cli.svg)](https://npmjs.org/package/webxt-cli)
+<!-- [![owebxt-clif](https://img.shields.io/badge/webxt-cli-owebxt-clif-brightgreen.svg)](https://owebxt-clif.io) -->
+<!-- [![Version](https://img.shields.io/npm/v/webxt-cli.svg)](https://npmjs.org/package/webxt-cli)
 [![Downloads/week](https://img.shields.io/npm/dw/webxt-cli.svg)](https://npmjs.org/package/webxt-cli)
-[![License](https://img.shields.io/npm/l/webxt-cli.svg)](https://github.com/linux-nerd/webxt-cli/blob/master/package.json)
+[![License](https://img.shields.io/npm/l/webxt-cli.svg)](https://github.com/linux-nerd/webxt-cli/blob/master/packages/webxt-cli/package.json) -->
 
 <!-- toc -->
 
