@@ -13,9 +13,9 @@
     "@oclif/plugin-help": "^3",
     "@types/inquirer": "^6.5.0",
     "inquirer": "^7.1.0",
-    "template-popup": "0.0.0",
     "tslib": "^1",
-    "webxt-scripts": "^0.0.0"
+    "webxt-scripts": "^0.0.0",
+    "webxt-template-popup": "^0.0.0"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1",
