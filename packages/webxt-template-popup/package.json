@@ -24,5 +24,8 @@
   },
   "bugs": {
     "url": "https://github.com/linux-nerd/webxt-cli/issues"
-  }
+  },
+  "files": [
+    "template"
+  ]
 }

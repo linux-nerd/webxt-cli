@@ -1,7 +1,5 @@
 import { Command, flags } from "@oclif/command";
 import * as inquirer from "inquirer";
-import { createDir } from "../services/mkdir";
-import { join } from "path";
 
 import Init from "webxt-scripts/src/commands/init";
 
@@ -25,8 +23,6 @@ export default class Create extends Command {
 
   static args = [{ name: "destination" }];
 
-  createDir() {}
-
   async run() {
     const { args } = this.parse(Create);
     let responses: Responses = await inquirer.prompt([
@@ -49,11 +45,7 @@ export default class Create extends Command {
     ]);
 
     try {
-      await createDir(args.destination);
-      this.log(`Directory ${args.destination} created!`);
-      const pathToApp = join(process.cwd(), args.destination);
-      this.log(`Creating scaffolding inside ${pathToApp}`);
-      await Init.run([pathToApp]);
+      await Init.run([args.destination]);
     } catch (e) {
       this.log(`Error: ${e}`);
     }
